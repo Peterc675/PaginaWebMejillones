@@ -1,0 +1,537 @@
+﻿@model dynamic
+
+<section class="cancion py-5">
+    <div class="container">
+        <!-- Tarjeta de Canción -->
+        <div class="cancion card shadow mb-5">
+            <div class="card-body">
+                <!-- Título y Autor -->
+                <h2 class="text-primary text-center mb-3">@Model.Titulo</h2>
+                <h4 class="text-secondary text-center mb-4">@Model.Autor</h4>
+
+                <div class="row align-items-start">
+                    <!-- Letra de la canción -->
+                    <div class="col-md-6">
+                        <h5 class="text-dark fw-bold">Letra:</h5>
+
+                        @if (Model.Id == 1)
+                        {
+                            <p>
+                                Amor, amor, amor<br>
+                                Vengo desde lejos<br>
+                                A bailar, a brindar<br>
+                                Con mis amigos. (bis)<br>
+                            </p>
+                            <p>
+                                Hasta el alba mi amor<br>
+                                Bailaremos<br>
+                                Y al año que viene<br>
+                                Volveremos. (bis)<br>
+                            </p>
+                            <p>
+                                Yo soy de Mejillones<br>
+                                Toda la vida mi amor<br>
+                                Yo soy el camionero.<br>
+                            </p>
+                        }
+                        else if (Model.Id == 2)
+                        {
+                            <p>
+                                Desde el Socavón<br>
+                                baja mi camión<br>
+                                Soy de Mejillones<br>
+                                Peso pesado (bis).<br>
+                            </p>
+                            <p>
+                                Por eso yo bailo<br>
+                                en el carnaval<br>
+                                Si es que gasto plata<br>
+                                Es por devoción (bis).<br>
+                            </p>
+                            <p>
+                                Morenita mi amor<br>
+                                Pero ven junto a mí<br>
+                                Si te gusta mi camión<br>
+                                Linda yo te llevaré (bis).<br>
+                            </p>
+                        }
+                        else if (Model.Id == 3)
+                        {
+                            <p>
+                                En la soledad<br>
+                                de tu alma, Ay! Vidita,<br>
+                                has de llorar muy triste<br>
+                                mi partida (bis)<br>
+
+                            </p>
+                            <p>
+                                no quiero honores,<br>
+                                no quiero flores<br>
+                                eso es vanidad, solo quiero<br>
+                                que me toque morenada (bis)<br>
+
+                            </p>
+                         }
+                        else if (Model.Id == 4)
+                        {
+                            <p>
+                                Mi camion y mi coquita<br>
+                                Acompañan mi desvelo (bis)<br>
+                                Soy el rey de los caminos<br>
+                                Madrugada dia y noche (bis)<br>
+
+                            </p>
+
+                            <p>
+                                Cada pueblo es mi destino<br>
+                                Conductor de mil caminos (bis)<br>
+                                Entre lluvia sol y viento<br>
+                                Tengo que llevar a tiempo (bis)<br>
+
+                            </p>
+                            <p>
+                                Para el carnaval<br>
+                                Platita traeré<br>
+                                Y a mi morena<br>
+                                Me la robare<br>
+
+                             </p>
+                        }
+                        else if (Model.Id == 5)
+                        {
+                            <p>
+                                Ya llego, ya esta aquí, la pesada<br>
+                                La mejillones ya llego ya esta aquí<br>
+                                como siempre, a compartir el carnaval<br>
+                                Con mi gente (bis)<br>
+
+                            </p>
+
+                            <p>
+                                De corazón a corazón<br>
+                                Bailo en mi morenada<br>
+                                Orgullo de mi Oruro soy<br>
+                                Donde vaya (bis)<br>
+
+                            </p>
+                            <p>
+                                Viva mi Oruro,<br>
+                                Viva el carnaval<br>
+                                Que viva la mejillones<br>
+                                Y su san jose (bis)<br>
+
+                            </p>
+                        }
+                        else if (Model.Id == 6)
+                        {
+                            <p>
+                                Aquí está la pesada<br>
+                                Con su banda unión pagador<br>
+                                Les hacemos cantar<br>
+                                Les hacemos bailar<br>
+                                Pero nuestras penas, nadie sabe (bis)<br>
+
+                            </p>
+                                                      
+                        }
+                        else if (Model.Id == 7)
+                        {
+                            <p>
+                                Morenita, linda y bella<br>
+                                Nunca te olvidare<br>
+                                Al son de los Mejillones<br>
+                                Siempre yo te amare<br>
+
+                            </p>
+
+                            <p>
+                                Formaremos un nidito<br>
+                                Lindo nido de amor<br>
+                                Morenita linda y bella<br>
+                                Nunca te olvidare (bis)<br>
+
+                            </p>
+
+                            <p>
+                                Bailamos los morenos<br>
+                                Con la Gran Mejillones<br>
+                                Morenos de corazón<br>
+                                Con amor y pasiones (Bis)<br>
+
+                            </p>
+
+                        }
+                        else if (Model.Id == 8)
+                        {
+                            <p>
+                                Qué cosa voy a llevar<br>
+                                Cuando voy a morir<br>
+                                Qué cosa voy a llevar<br>
+                                Cuando voy a morir (bis)<br>
+
+                            </p>
+
+                            <p>
+                                Morenada quiero bailar<br>
+                                Con la Banda Unión Pagador<br>
+                                Cervecita quiero tomar<br>
+                                En la fiesta del carnaval<br>
+
+                            </p>
+
+                            <p>
+                                No hay que sufrir, no hay que llorar<br>
+                                Nada de esta vida vamos a llevar<br>
+                                Mejor es cantar, mejor es bailar<br>
+                                La pesada siempre sin igual (bis)<br>
+
+                            </p>
+
+                        }
+                        else if (Model.Id == 9)
+                        {
+                            <p>
+                                Cuando me muera, no has de llorrar por mi partida!<br>
+                                Desde el Cielo yo te veré, prenda querida<br>
+                                Ay! Mi vida, linda orureñita<br>
+                                Ay! Mi vida, de la Mellones (Bis)<br>
+
+
+                            </p>
+
+                            <p>
+                                En los pulpos siempre bailare<br>
+                                Matraquita de volvo usare<br>
+                                En la gran pesada<br>
+                                ¡Viva la Mejillones!<br>
+
+                            </p>
+                                                    
+
+                        }
+                        else if (Model.Id == 10)
+                        {
+                            <p>
+                                Prometí no hacerte llorar<br>
+                                prometí no hacerte sufrir<br>
+                                pero no pude cumplir<br>
+                                pero no pude cumplir (Bis)<br>
+
+                            </p>
+
+                            <p>
+                                Este corazón<br>
+                                tiene la culpa<br>
+                                por haberte olvidado<br>
+                                linda morenita<br>
+
+                            </p>
+
+
+                        }
+                        else if (Model.Id == 11)
+                        {
+                            <p>
+                                Ya viene la morenada<br>
+                                Bailando con sus Matracas<br>
+                                Con la Pesada (Bis)<br>
+
+
+                            </p>
+
+                            <p>
+                                Por los Caminos<br>
+                                Firme al volante<br>
+                                ya nos vamos al carnaval<br>
+                                Para la Virgen nuestra promesa de la Mejillones! (Bis)<br>
+
+                            </p>
+
+                        }
+                        else if (Model.Id == 12)
+                        {
+                            <p>
+                                No quiero saber de ti, Mentirosa!<br>
+                                Por que fue tu traición?,<br>
+                                no puedo entender<br>
+
+                            </p>
+
+                            <p>
+                                Tanto te amaba<br>
+                                No quiero Saber de ti, Mala ingrata<br>
+                                Si el Cielo yo te di<br>
+                                y mi corazón<br>
+                                Lo haz destrozado<br>
+
+                            </p>
+
+                            <p>
+                                Ya quiero estar lejos<br>
+                                No me expliques vete por favor<br>
+                                Solo mi camion, quien sabe,<br>
+                                cuanto te amaba (Bis)<br>
+
+                            </p>
+
+                            <p>
+                                Transportista soy<br>
+                                Peso pesado<br>
+                                Yo trabajo por mi pais<br>
+                                Soy mejillones, si señor! (Bis)<br>
+
+                            </p>
+
+                        }
+                        else if (Model.Id == 13)
+                        {
+                            <p>
+                                Beso de Negro<br>
+                                Cautivo tu corazón<br>
+                                Testigo de esta locura<br>
+                                Este es mi Camión<br>
+
+                            </p>
+
+                            <p>
+                                Beso de Negro<br>
+                                Cautivo tu corazón<br>
+                                Testigo de esta locura<br>
+                                Mejillones Soy<br>
+
+                            </p>
+
+                            <p>
+                                Son tus bellos ojos<br>
+                                Como rayos de sol<br>
+                                Esa tu mirada<br>
+                                Alimenta mi amor (Bis)<br>
+
+                            </p>
+
+                            <p>
+                                Morenita, Morenada<br>
+                                Vamos a bailar<br>
+                                Escuchando el llamado del mar<br>
+                                Recuperando el Litoral<br>
+
+                            </p>
+
+                            <p>
+                                Morenita, Morenada<br>
+                                Vamos a bailar<br>
+                                Junto a la Mejillones<br>
+                                Recuperando nuestro mar<br>
+                           </p >
+
+                        }
+                        else if (Model.Id == 14)
+                        {
+                            <p>
+                                A ciento veinte mi amor<br>
+                                A Oruro llego por ti<br>
+                                Ciento ochenta es mi ilusión<br>
+                                Ya estoy en el Socavón (Bis)<br>
+
+                            </p>
+
+                            <p>
+                                Reyes Morenos de la Mejillones<br>
+                                Rey de tu Corazón<br>
+                                China Morena Orgullosita<br>
+                                Ya no me hagas sufrir (Bis)<br>
+
+                            </p>
+
+                            <p>
+                                Te quiero me dices tu<br>
+                                En cada viaje mi amor<br>
+                                Si dices quererme en esta frontera<br>
+                                Dame la Prueba de Amor (Bis)<br>
+
+                            </p>
+                                                                              
+
+                        }
+                        else if (Model.Id == 15)
+                        {
+                            <p>
+                                Hasta la Muerte yo voy a Bailar<br>
+                                Con la Pesada, con la Mejillones<br>
+                                Hasta en el Cielo o en el infierno<br>
+                                Con la Pesada, hasta la Muerte<br>
+
+                            </p>
+
+                            <p>
+                                Hasta que Dios me diga “basta ya”<br>
+                                Hasta que mis fuerzas ya no den más<br>
+                                Voy a seguir Bailando hasta el final<br>
+                                La Morenada en la Mejillones<br>
+
+                            </p>
+
+                            <p>
+                                Por eso canto y bailo<br>
+                                Junto a mi camión<br>
+                                Por eso vuelvo<br>
+                                Siempre a mi Oruro (bis)<br>
+
+                            </p>
+
+                        }
+                        else if (Model.Id == 16)
+                        {
+                            <p>
+                                Soy un moreno enamorado<br>
+                                Incomprendido y maltratado<br>
+                                Que baila para olvidar<br>
+                                Mis penas quiero olvidar.<br>
+
+                            </p>
+
+                            <p>
+                                Mi corazón se ha roto como un cristal<br>
+                                Pero sigue candente ardiente de amor<br>
+                                Para olvidar<br>
+                                Morenada tengo que bailar.<br>
+
+                            </p>
+
+                            <p>
+                                Las matracas que suenan consuelan<br>
+                                Las penas que tengo en mi corazón<br>
+                                De esas noches que hielan el alma<br>
+                                La luna plateada con hilos de amor.<br>
+
+                            </p>
+                            <p>
+                                Se está muriendo el corazón<br>
+                                Se está muriendo el corazón<br>
+                                Para olvidar, para olvidar<br>
+                                Morenada tengo que bailar<br>
+
+                            </p>
+
+                        }
+                        else if (Model.Id == 17)
+                        {
+                            <p>
+                                Amor Amor que te ha pasado<br>
+                                Amor Amor donde te has ido<br>
+                                Morenita linda tu eres mi vida<br>
+                                Ya no llores más por mi corazón (Bis)<br>
+
+
+                            </p>
+                                                      
+                        }
+                        else if (Model.Id == 18)
+                        {
+                            <p>
+                                Más ya no Quisiera verte llorando<br>
+                                Más ya no Quisiera verte sufriendo<br>
+                                Si estoy a tu lado, que cosa mas quieres?<br>
+                                Oh dudas de mi? (Bis)<br>
+
+                            </p>
+                            <p>
+                                Para que más llorar<br>
+                                Cantar y bailar<br>
+                                Yo te quiero de verdad<br>
+                                Para siempre corazón (Bis)<br>
+
+                            </p>
+
+                        }
+                        else if (Model.Id == 19)
+                        {
+                            <p>
+                                Se que me traicionas riendo<br>
+                                Regresaras llorando<br>
+                                Se que me traicionas riendo<br>
+                                Regresaras llorando<br>
+
+                            </p>
+
+                            <p>
+                                Pulpo Morenito de la mejillones<br>
+                                Nunca podrás encontrar<br>
+                                Recordando quedada con la pesada<br>
+                                Se que por mi lloraras (Bis)<br>
+
+                            </p>
+
+                            <p>
+                                Ahora que tu estas llorando<br>
+                                Ahora que tu estas sufriendo<br>
+                                Yo cantando, me voy bailando<br>
+                                Me voy en busca de un gran amor (Bis)<br>
+
+                            </p>
+
+                        }
+                        else if (Model.Id == 20)
+                        {
+                            <p>
+                                Si quieres bailar morenada<br>
+                                Tienes que tener platita<br>
+                                Si quieres bailar morenada<br>
+                                Tienes que tener platita<br>
+
+                            </p>
+
+                            <p>
+                                Cocani no llores<br>
+                                Ferrari no sufras<br>
+                                Somos los pulpos<br>
+
+                            </p>
+
+                            <p>
+                                Cocani no llores<br>
+                                Ferrari no sufras<br>
+                                Somos los pulpos<br>
+
+                            </p>
+
+                        }
+                        else if (Model.Id == 21)
+                        {
+                            <p>
+                                Ay que bonito baila la morenada<br>
+                                Moviendo la cintura de aqui para alla<br>
+                                Chascañawi de mi alma<br>
+                                La gran figura en el carnaval<br>
+
+                            </p>
+
+                            <p>
+                                Llorare cuando me vaya<br>
+                                Recordando tus bellos ojos<br>
+                                Llorare cuando me vaya<br>
+                                Recordando tus bellos ojos<br>
+                                Chascañawi la gran figura<br>
+
+                            </p>
+
+                        }
+                        
+                    </div>
+
+                    <!-- Video de YouTube -->
+                    <div class="col-md-6 text-center">
+                        <iframe class="embed-responsive-item rounded"
+                                src="@Model.VideoUrl"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Botón de regreso -->
+                <div class="mt-4 text-center">
+                    <a asp-controller="Cancionero" asp-action="Index" class="btn btn-primary">Volver al Cancionero</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

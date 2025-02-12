@@ -1,0 +1,107 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\Images\3.jpg
+wwwroot\Images\BAILARINAS MEJILLONES 2.jpg
+wwwroot\Images\BAILARINAS MEJILLONES 3.jpg
+wwwroot\Images\BAILARINAS MEJILLONES 4.jpg
+wwwroot\Images\BAILARINAS MEJILLONES 5.jpg
+wwwroot\Images\BAILARINAS MEJILLONES 6.jpg
+wwwroot\Images\BAILARINAS MEJILLONES 7.jpg
+wwwroot\Images\BAILARINAS MEJILLONES 8.jpg
+wwwroot\Images\BAILARINAS MEJILLONES.jpg
+wwwroot\Images\Contacto.jpg
+wwwroot\Images\Facebook.jpg
+wwwroot\Images\FOOTER.jpg
+wwwroot\Images\FOOTER2.jpg
+wwwroot\Images\instagram.jpg
+wwwroot\Images\logo.jpeg
+wwwroot\Images\miss Mejillones.jpg
+wwwroot\Images\predilecta
+wwwroot\Images\predilecta2.jpg
+wwwroot\Images\tiktok.png
+wwwroot\Images\vertical1.jpg
+wwwroot\Images\vertical2.jpg
+wwwroot\Images\youtube imagen.png
+wwwroot\Images2\facebook.png
+wwwroot\Images2\instagram.png
+wwwroot\Images2\tik-tok (1).png
+wwwroot\Images2\tik-tok.png
+wwwroot\Images2\whatsapp.png
+wwwroot\Images2\youtube.png
+wwwroot\Images3\cofradia.png
+wwwroot\Images3\Directorio Cooperativa de Transporte Nacional e Internacional de Carga Mejillones R.L..JPG
+wwwroot\Images3\Directorio.PNG
+wwwroot\Images3\Imagen de WhatsApp 2024-11-29 a las 19.40.25_b652a65c.jpg
+wwwroot\Images3\Presidenta Cofradia - Amalia Antezana.jpg
+wwwroot\Images3\Presidente Conjunto Morenada Mejillones.JPG
+wwwroot\Images4\convocatoria_Cholas_antiguas.jpg
+wwwroot\Images4\Cronograma de actividades2025.jpg
+wwwroot\Images4\EleccionPredilecta2024.jpg
+wwwroot\Images4\Events.jpg
+wwwroot\Images4\FelicitacionesCentral.jpg
+wwwroot\Images4\FelicitacionesCocani.jpg
+wwwroot\Images4\historia.jpg
+wwwroot\Images4\NuestraComunidad.jpg
+wwwroot\Images4\Procesion de Cirios.jpg
+wwwroot\Images4\SantaCecilia2024.jpg
+wwwroot\Images4\TercerRecorrido.jpg
+wwwroot\Images4\Velada2024.jpg
+wwwroot\Images4\veladaBloqueLicenciadas.jpg
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt

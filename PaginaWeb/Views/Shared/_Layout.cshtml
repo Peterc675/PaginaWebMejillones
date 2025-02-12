@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Morenada Mejillones</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header py-4">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+            <!-- Logo -->
+            <div class="logo-container text-center text-md-start mb-3 mb-md-0">
+                <img src="~/images/logo.jpeg" alt="Logo Mejillones" class="logo img-fluid">
+            </div>
+
+            <!-- Título Central -->
+            <div class="title-container text-center">
+                <h1 class="site-title text-white display-5 fw-bold">Morenada Mejillones</h1>
+                <p class="subtitle text-white-50 fst-italic">Rumbo a los 50 años de tradición</p>
+            </div>
+        </div>
+
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark mt-3">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a asp-controller="Morenada" asp-action="Inicio" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Morenada" asp-action="Historia" class="nav-link">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Morenada" asp-action="Directorio" class="nav-link">Directorio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Cancionero" asp-action="Index" class="nav-link">Cancionero</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Morenada" asp-action="Eventos" class="nav-link">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Morenada" asp-action="Galeria" class="nav-link">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Morenada" asp-action="Contacto" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <div class="container my-4">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="footer-bg text-white py-5">
+        <div class="container">
+            <div class="row text-center text-md-start align-items-center">
+                <!-- Columna 1: Información de la fraternidad -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h4>Conjunto Morenada Mejillones Oruro</h4>
+                    <p>Rumbo a los 50 AÑOS DE HISTORIA Y TRADICIÓN!</p>
+                </div>
+
+                <!-- Columna 2: Imagen central -->
+                <div class="col-md-4 text-center">
+                    <img src="/images/FOOTER2.jpg" alt="Danzarina" class="img-fluid rounded shadow" style="max-height: 200px;">
+                </div>
+
+                <!-- Columna 3: Información de contacto -->
+                <div class="col-md-4 text-center text-md-end">
+                    <h5>Contáctenos</h5>
+                    <p>Potosí 5174, Oruro</p>
+                    <p>+591 64768165</p>
+                    <p>morenada.mejillones204@gmail.com</p>
+
+                    <!-- Iconos de redes sociales -->
+                    <div class="social-icons d-flex justify-content-center justify-content-md-end">
+                        <a href="https://www.facebook.com/profile.php?id=61551049443411&locale=es_LA" target="_blank" class="mx-2">
+                            <img src="/Images2/facebook.png" alt="Facebook" class="icon">
+                        </a>
+                        <a href="https://www.instagram.com/conj.morenadamejillones?fbclid=IwZXh0bgNhZW0CMTAAAR2Ge1Ga2pz0AEBPFhfHWiq7HFO1AUVgOL12sBcQL5ujFnC-FmaPZuohUXg_aem_NGnZ3dtq1WrTRWqc_ti-rw" target="_blank" class="mx-2">
+                            <img src="/images2/instagram.png" alt="Instagram" class="icon">
+                        </a>
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftiktok.com%2F%40conj.morenadamejillones%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2fEb8JYZxePiobxy7rG66pu7WkESvYy2vFuqNURnBjp-8U_mcERImp3h0_aem_jBrcaiB-OYvS5ineiCquOQ&h=AT1YxQDenAt2QQ9hhYyHv7clEl62K9EHmbz83zgJ0zYlRGhYe1uH8863l8lJH0JVNj11lbcI0s9gtjYR1lK1utgoUpJny8pLInvd-VWZmcWhrUlzOjpOvEshgOv83iYMpUdY" target="_blank" class="mx-2">
+                            <img src="/images2/tik-tok (1).png" alt="TikTok" class="icon">
+                        </a>
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2F%40https%253A%252F%252Fyoutube.com%252F%2540conj.morenadamejillones%253Fsi%253DyV2SYlDGHXV-FITz%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2cf-eCGM1ZncyVYKg-oVKKVcpK6Qfzr8l9mPn7YBbc7NY8C8lP9JtpZiw_aem_iQl4VC1IlSTAcNGYa0uwYw&h=AT2SFw0-Wj50uWQuXos-OIo_h6z9JgfY-YnqmKSDDU_5_acH0Kso9X2zfCZKbqDt3R8ljZqMYDu0EBbfo42UxIlz4E7EK_gS5VzrUpE2rEfO1hq4kcRTgKJjf_7xYDqUcGGz" target="_blank" class="mx-2">
+                            <img src="/images2/youtube.png" alt="YouTube" class="icon">
+                        </a>
+                        <a href="https://wa.link/1c01t5" target="_blank" class="mx-2">
+                            <img src="/images2/whatsapp.png" alt="WhatsApp" class="icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts de JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Bundle JS (incluye Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Sección opcional de scripts -->
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        function showImage(element) {
+            const modalImage = document.getElementById('modalImage');
+            if (modalImage && element.src) {
+                modalImage.src = element.src; // Actualiza el 'src' de la imagen en el modal
+            } else {
+                console.error("No se pudo encontrar el modal o la imagen.");
+            }
+        }
+    </script>
+
+</body>
+</html>

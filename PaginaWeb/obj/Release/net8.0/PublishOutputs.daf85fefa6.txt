@@ -1,0 +1,7 @@
+C:\Users\pcali\Pictures\Pagina web Sindicato Mejillones\PaginaWeb\PaginaWeb\obj\Release\net8.0\PubTmp\Out\PaginaWeb.exe
+C:\Users\pcali\Pictures\Pagina web Sindicato Mejillones\PaginaWeb\PaginaWeb\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\pcali\Pictures\Pagina web Sindicato Mejillones\PaginaWeb\PaginaWeb\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\pcali\Pictures\Pagina web Sindicato Mejillones\PaginaWeb\PaginaWeb\obj\Release\net8.0\PubTmp\Out\PaginaWeb.dll
+C:\Users\pcali\Pictures\Pagina web Sindicato Mejillones\PaginaWeb\PaginaWeb\obj\Release\net8.0\PubTmp\Out\PaginaWeb.deps.json
+C:\Users\pcali\Pictures\Pagina web Sindicato Mejillones\PaginaWeb\PaginaWeb\obj\Release\net8.0\PubTmp\Out\PaginaWeb.runtimeconfig.json
+C:\Users\pcali\Pictures\Pagina web Sindicato Mejillones\PaginaWeb\PaginaWeb\obj\Release\net8.0\PubTmp\Out\PaginaWeb.pdb

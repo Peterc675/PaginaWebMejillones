@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PaginaWeb
+build_property.RootNamespace = PaginaWeb
+build_property.ProjectDir = C:\Users\pcali\Pictures\Pagina web Sindicato Mejillones\PaginaWeb\PaginaWeb\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\pcali\Pictures\Pagina web Sindicato Mejillones\PaginaWeb\PaginaWeb
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Cancionero/Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2lvbmVyb1xEZXRhbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Cancionero/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2lvbmVyb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Morenada/Contacto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yZW5hZGFcQ29udGFjdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Morenada/Directorio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yZW5hZGFcRGlyZWN0b3Jpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Morenada/Eventos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yZW5hZGFcRXZlbnRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Morenada/Galeria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yZW5hZGFcR2FsZXJpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Morenada/Historia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yZW5hZGFcSGlzdG9yaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Morenada/Inicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yZW5hZGFcSW5pY2lvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pcali/Pictures/Pagina web Sindicato Mejillones/PaginaWeb/PaginaWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-q10zqlbvhp

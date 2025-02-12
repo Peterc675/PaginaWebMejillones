@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio Morenada Mejillones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="directory.css">
+</head>
+<body>
+    <section class="directory py-5">
+        <div class="container">
+            <h1 class="text-center text-uppercase mb-5 display-4 text-primary">Directorio Morenada Mejillones</h1>
+
+            <!-- Directory Section -->
+            <div class="directory-section">
+                <div class="row directory-card align-items-center mb-5 shadow-lg rounded bg-white">
+                    <div class="col-md-4 text-center directory-image-container">
+                        <div class="image-wrapper">
+                            <img src="/Images3/Directorio.PNG" alt="Directorio"
+                                 class="img-fluid rounded-circle directory-image"
+                                 data-bs-toggle="modal" data-bs-target="#sharedImageModal">
+                        </div>
+                    </div>
+                    <div class="col-md-8 directory-details">
+                        <h2 class="mb-4 section-title">DIRECTORIO</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="directory-list">
+                                    <li><span class="role">Presidente:</span> <span class="name">Juan René Ortuño Soria</span></li>
+                                    <li><span class="role">Vicepresidente:</span> <span class="name">Lino Marcos Main Adrian</span></li>
+                                    <li><span class="role">Secretario de Hacienda:</span> <span class="name">Genaro Alfredo Gutierrez Rojas</span></li>
+                                    <li><span class="role">Secretario de Actas:</span> <span class="name">Fanor Zenteno Caceres</span></li>
+                                    <li><span class="role">Secretario de Cultura:</span> <span class="name">Lic. Eduardo Clavijo</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="directory-list">
+                                    <li><span class="role">Delegado Titular A.C.F.O:</span> <span class="name">Enrique Lopez Panigua</span></li>
+                                    <li><span class="role">Fiscal General:</span> <span class="name">Jorge Quiroga Villazon</span></li>
+                                    <li><span class="role">Secretaria:</span> <span class="name">Adela Choque Sanchez</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tribunal-section mt-4">
+                            <h3 class="mb-3 subsection-title">STRIOS. DE ORGANIZACION</h3>
+                            <ul class="tribunal-list">
+                                <li>Prudencio Taquichiri Cortez</li>
+                                <li>Primo Gil Lopez</li>
+                                <li>Freddy Villca Martinez</li>
+                                <li>Rolando Ayllon Zambrana</li>
+                                <li>Felicidad Alvarez</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Confraternity Section -->
+            <h2 class="text-center text-uppercase mb-5 text-success display-5">Cofradía</h2>
+
+            <div class="confraternity-section">
+                <div class="row directory-card align-items-center shadow-lg rounded bg-white">
+                    <div class="col-md-8 confraternity-details">
+                        <ul class="directory-list">
+                            <li><span class="role text-success">Mayordomo:</span> <span class="name">Roberto Sánchez</span></li>
+                            <li><span class="role text-success">Colaboradora:</span> <span class="name">Ana María Gutiérrez</span></li>
+                            <li><span class="role text-success">Capitán:</span> <span class="name">José Ignacio Pérez</span></li>
+                            <li><span class="role text-success">Encargado de Vestuario:</span> <span class="name">Teresa Flores</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-center directory-image-container">
+                        <div class="image-wrapper">
+                            <img src="/Images3/Cofradia.PNG" alt="Cofradía"
+                                 class="img-fluid rounded-circle directory-image"
+                                 data-bs-toggle="modal" data-bs-target="#sharedImageModal">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shared Image Modal -->
+        <div class="modal fade" id="sharedImageModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Imagen</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id="sharedModalImage" src="" alt="Imagen" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Modal Image Handling
+        document.addEventListener('DOMContentLoaded', () => {
+            const images = document.querySelectorAll('[data-bs-target="#sharedImageModal"]');
+            const modalImage = document.getElementById('sharedModalImage');
+            const sharedImageModal = new bootstrap.Modal(document.getElementById('sharedImageModal'));
+
+            images.forEach(img => {
+                img.addEventListener('click', (e) => {
+                    // Actualiza la imagen del modal
+                    modalImage.src = e.target.src;
+                });
+            });
+
+            // Limpia el contenido del modal al cerrarlo
+            const modalElement = document.getElementById('sharedImageModal');
+            modalElement.addEventListener('hidden.bs.modal', () => {
+                modalImage.src = ''; // Elimina la imagen para evitar problemas de recarga
+            });
+        });
+    </script>
+</body>
+</html>

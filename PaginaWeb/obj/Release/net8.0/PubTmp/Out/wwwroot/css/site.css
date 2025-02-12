@@ -1,0 +1,579 @@
+/* --- GENERAL --- */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    transition: background-color 0.3s ease; /* Suaviza los cambios de fondo */
+}
+
+button, a {
+    transition: all 0.3s ease;
+}
+
+    button:hover, a:hover {
+        transform: scale(1.05); /* Efecto hover */
+    }
+
+/* --- ENCABEZADO --- */
+.header {
+    background: linear-gradient(45deg, #1a237e, #673ab7); /* Degradado azul-violeta */
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #ffc107; /* Línea dorada */
+}
+
+/* Logo */
+.logo {
+    max-height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos */
+.site-title {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+}
+
+/* --- NAVEGACIÓN --- */
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    .navbar-nav .nav-link:hover {
+        background-color: #ffc107; /* Color de hover dorado */
+        color: #000; /* Texto negro */
+    }
+
+.navbar-toggler {
+    border-color: #ffc107;
+}
+
+/* Link activo */
+nav a.active {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* --- PIE DE PÁGINA --- */
+.footer-bg {
+    background-color: #0d1b2a; /* Azul oscuro */
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+    /* Textos del footer */
+    .footer-bg h4, .footer-bg h5 {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .footer-bg p {
+        margin: 5px 0;
+    }
+
+    .footer-bg img {
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+/* Iconos de redes sociales */
+.social-icons .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+}
+
+    .social-icons .icon:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5);
+    }
+
+/* --- SECCIONES PERSONALIZADAS --- */
+/* Hero con imagen de fondo */
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('/Images/FOOTER.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    .hero .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Oscurece la imagen */
+        z-index: 1;
+    }
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+}
+
+    .hero-content h1 {
+        font-size: 3.5rem;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero-content p {
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Botón principal */
+    .hero-content .btn {
+        font-size: 1.2rem;
+        border-radius: 25px;
+    }
+
+/* Sección Destacados */
+#destacados {
+    background-color: #f8f9fa; /* Fondo claro */
+    padding: 50px 0;
+    border-top: 5px solid #cba135; /* Línea decorativa */
+    border-bottom: 5px solid #cba135; /* Línea decorativa */
+}
+
+    #destacados h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #00224e; /* Azul oscuro */
+        margin-bottom: 40px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    }
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .card:hover {
+        transform: scale(1.05); /* Efecto de zoom */
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra */
+    }
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* Asegura que las imágenes llenen el espacio */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+}
+
+
+/* Cancionero */
+.cancion {
+    border: 1px solid #ddd; /* Borde ligero */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden;
+    transition: box-shadow 0.3s ease; /* Sombra suave */
+}
+
+    .cancion:hover {
+        transform: none !important; /* Desactiva transformaciones */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra en hover */
+    }
+
+    .cancion p, .cancion h2, .cancion h4 {
+        transform: none !important; /* Elimina zoom en texto */
+        transition: none !important; /* Sin transiciones */
+    }
+
+    .cancion iframe {
+        width: 100%; /* Ocupa todo el ancho del contenedor */
+        max-width: 640px; /* Tamaño máximo */
+        height: 360px; /* Altura proporcional */
+        border: none;
+        border-radius: 10px; /* Bordes redondeados */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+        margin: 0 auto; /* Centra el video */
+        display: block; /* Comportamiento de bloque */
+    }
+
+@media (max-width: 768px) {
+    .cancion iframe {
+        max-width: 100%; /* Usa todo el ancho del contenedor */
+        height: auto; /* Altura automática para mantener proporciones */
+    }
+}
+
+
+
+/* Gallery Styles */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 1.5rem;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-wrapper {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    background: rgba(0, 0, 0, 0.6); /* Sombreado negro */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.gallery-item:hover .image-overlay {
+    opacity: 1; /* Mostrar la franja al pasar el cursor */
+}
+
+.gallery-item:hover .gallery-image {
+    transform: scale(1.1); /* Zoom de la imagen */
+}
+
+/* Lightbox Styles */
+.lightbox-image-container {
+    max-width: 90%;
+    max-height: 90vh;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.lightbox-info {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+    }
+
+    .lightbox-image-container {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .lightbox-image {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+
+/*EVENTOS*/
+.eventos {
+    background-color: #f8f9fa; /* Fondo claro */
+    padding: 50px 0;
+}
+
+    .eventos h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    }
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+    }
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #00224e; /* Azul oscuro */
+}
+
+.card-text {
+    color: #555;
+}
+
+.modal-content {
+    border-radius: 15px;
+    padding: 20px;
+}
+
+    .modal-content img {
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+/* Directory Styles */
+.directory {
+    background-color: #f4f6f9;
+}
+
+.directory-card {
+    background-color: white;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+    .directory-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+    }
+
+.directory-image-container {
+    position: relative;
+}
+
+.image-wrapper {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.directory-image {
+    border: 5px solid #f1f1f1;
+    transition: transform 0.3s ease;
+}
+
+/* Zoom efecto al pasar el cursor */
+.image-wrapper:hover .directory-image {
+    transform: scale(1.05);
+}
+
+/* Eliminando overlay de ver imagen */
+.image-overlay {
+    display: none;
+}
+
+/* Detalles del directorio */
+.directory-card {
+    background-color: white;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: stretch;
+}
+
+.directory-image-container {
+    width: 300px; /* Increased width */
+    flex-shrink: 0;
+}
+
+.directory-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.directory-card:hover .directory-image {
+    transform: scale(1.05);
+}
+
+.directory-details {
+    padding: 1.5rem;
+    flex-grow: 1;
+}
+
+.section-title {
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.directory-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .directory-list li {
+        margin-bottom: 0.75rem;
+        display: flex;
+        align-items: center;
+    }
+
+.role {
+    font-weight: bold;
+    min-width: 200px;
+    margin-right: 15px;
+    color: #007bff;
+}
+
+.tribunal-section {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.tribunal-list {
+    columns: 2;
+    list-style-type: none;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .directory-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .directory-image-container {
+        width: 100%;
+        height: 300px; /* Fixed height for mobile */
+    }
+
+    .directory-details {
+        padding: 1rem;
+    }
+
+    .role {
+        min-width: auto;
+        display: block;
+        margin-right: 0;
+        margin-bottom: 0.25rem;
+    }
+
+    .tribunal-list {
+        columns: 1;
+    }
+}
+
+
+
+/* Listas */
+ul {
+    padding-left: 0;
+}
+
+    ul li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+        ul li ul {
+            padding-left: 20px;
+        }
+
+
+/* --- RESPONSIVIDAD --- */
+@media (max-width: 768px) {
+    /* General */
+    .logo {
+        max-height: 80px; /* Reduce el tamaño del logo */
+    }
+
+    .site-title {
+        font-size: 2rem;
+    }
+
+    /* Footer */
+    .footer-bg .row {
+        text-align: center;
+    }
+
+    .footer-bg img {
+        margin: 15px 0;
+    }
+
+    /* Cancionero */
+    .cancion iframe {
+        height: 250px;
+    }
+
+    @media (max-width: 768px) {
+        .modal-dialog.modal-lg {
+            max-width: 100%; /* Usa el 100% del ancho en pantallas pequeñas */
+        }
+
+        #modalImage {
+            max-height: 80vh; /* Limita la altura de la imagen */
+        }
+    }
+}
